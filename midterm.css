@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster+Two:ital@1&family=Pacifico&family=Tangerine:wght@700&display=swap');
+
+body{
+    margin: 0;
+    top: 0;
+    background-color: #325971;
+}
+
+/* Nav Bar */
+
+.header{
+    position: sticky;
+    top: 0;
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 25px;
+    background-color:#829BB0;
+    color: #001233;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    border-bottom: 3px solid #364156;
+}
+
+.links a{
+    margin-right: 45px;
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #001233;
+    
+}
+
+.links a:hover{
+    text-decoration: underline;
+    color: #002855;
+}
+
+.next-page a{
+    font-weight: bold;
+    margin-left: -10px;
+    text-decoration: none;
+    color: #001233;
+}
+
+.next-page a:hover{
+    text-decoration: underline;
+    color: #002855;
+}
+
+/* Session 1 */
+
+.photos{
+    width: 400px;
+    height: 252.7px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    top: 0;
+}
+
+.texts{
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ced4da;
+    background-color: #4F677D;
+}
+
+/* Session 2 */
+
+.session2{
+    padding: 15px;
+    margin: 0;
+    top: 0;
+    justify-content: space-between;
+    background-color: #325971;
+}
+
+.session-texts{
+    font-family: 'Lobster Two', sans-serif;
+    color: #011627;
+}
+
+.session2-texts2{
+    font-family: 'Tangerine', sans-serif;
+    font-size: 20px;
+    float: right;
+    margin-right: 40px;
+    margin-top: -75px;
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+    color: #ced4da;
+}
+
+.session2-pics1{
+    width: 400px;
+    height: 252px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    top: 0;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.session2-pics2{
+    width: 400px;
+    height: 252px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    top: 0;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Session 3 */
+
+.session3{
+    padding: 15px;
+    margin: 0;
+    top: 0;
+    background-color: #4F677D;
+}
+
+.img1{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.img2{
+    height: 300px;
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.img3{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.pa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+
+.session3-1{
+    font-family: 'Tangerine', sans-serif;
+    font-size: 23px;
+    margin-top: 80px;
+    float: right;
+    color: #ced4da;
+    margin-right: 80px;
+}
+
+.session3-2{
+    font-family: 'Tangerine', sans-serif;
+    font-size: 23px;
+    margin-top: 80px;
+    float: left;
+    color: #ced4da;
+    margin-right: 20px;
+}
+
+.session3-3{
+    font-family: 'Tangerine', sans-serif;
+    font-size: 23px;
+    margin-top: 80px;
+    float: right;
+    color: #ced4da;
+    margin-right: 80px;
+}
+
+.cafe-titles1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: underline;
+    color: #dcccff;
+}
+
+.cafe-titles2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: underline;
+    color: #dcccff;
+}
+
+/* Session 4 */
+
+.session4{
+    padding: 15px;
+    margin: 0;
+    top: 0;
+    justify-content: space-between;
+    background-color: #325971;
+}
+
+.s4-img2{
+    height: 300px;
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 70px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.s4-img1{
+    height: 300px;
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.session4-1{
+    font-family: 'Tangerine', sans-serif;
+    font-size: 23px;
+    margin-top: 80px;
+    float: right;
+    color: #ced4da;
+}
+
+.centralpark{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    color: #dcccff;
+    margin-right: 460px;
+    margin-top: -70px;
+}
+
+.lists1{
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+
+.timessquare{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    color: #dcccff;
+    margin-right: 460px;
+}
+
+.session4-2{
+    font-family: 'Tangerine', sans-serif;
+    font-size: 23px;
+    margin-top: 80px;
+    float: right;
+    color: #ced4da;
+}
+
+.copyright{
+    font-family: 'ADELIA Regular', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
